@@ -1,0 +1,65 @@
+<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sudip Singh | Contact</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Live Chat widget script placeholder -->
+  <!-- You can use Tawk.to, or other free live chat service -->
+  <script src="https://embed.tawk.to/YOUR_TAWK_TO_ID/default" async></script>
+</head>
+<body>
+  <header>
+    <h1>Sudip Singh</h1>
+    <p>Digital Presentation Maker & Consultant</p>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="index.html">Contact</a>
+    </nav>
+  </header>
+  
+  <section class="visitor-counter">
+    <p>Number of visitors: <span id="visitorCount">0</span></p>
+  </section>
+  
+  <section class="contact-section">
+    <h2>Contact Me</h2>
+    <form id="contactForm" method="POST" action="YOUR_FORM_ENDPOINT">
+      <label>
+        Your Name:<br>
+        <input type="text" name="name" required>
+      </label><br>
+      <label>
+        Your Email:<br>
+        <input type="email" name="email" required>
+      </label><br>
+      <label>
+        Message:<br>
+        <textarea name="message" rows="5" required></textarea>
+      </label><br>
+      
+      <!-- CAPTCHA -->
+      <div id="captchaContainer">
+        <label for="captchaInput">Enter the text:</label><br>
+        <canvas id="captchaCanvas" width="200" height="60"></canvas><br>
+        <input type="text" id="captchaInput" placeholder="Enter CAPTCHA" required>
+        <button type="button" id="refreshCaptcha">Refresh CAPTCHA</button>
+      </div><br>
+      
+      <button type="submit">Send Message</button>
+    </form>
+    
+    <div class="direct-links">
+      <p>Email: <a href="mailto:sudip39pro@gmail.com">sudip39pro@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/sudipxcx" target="_blank">@sudipxcx</a></p>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Sudip Singh | Lalitpur, Nepal</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
